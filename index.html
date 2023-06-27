@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moyenne</title>
+</head>
+<body>
+    <div class="eq">
+        <span id = "aboutA">
+            <span id="textA">a</span>x<sup>2</sup>+
+        </span> <!-- kol mehou tebaa l a -->
+       <span id="aboutB">
+            <span id="textB">b</span> x 
+        </span> <!--kol mehou tebaa l b  -->
+        <span id="aboutC">
+            +<span id ="textC">c</span>
+        </span>
+       
+    </div>
+    <label for="a">value of a</label>
+    <input type="text" id="a" onchange="change()">
+    <label for="b">value of b</label>
+    <input type="text" id = "b" onchange="change()">
+    <label for="c">value of c</label>
+    <input type="text" id="c" onchange="change()">
+    <button onclick="solution()">solution?</button>
+    <p id = "result"></p>
+    
+</body>
+<script  src="/index.js"></script>
+</html>
